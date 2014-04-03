@@ -27,6 +27,9 @@ Instructions for what to do when the 'clean' command is called:
             -rm -f *.o *~
 
 References:
+
 [Managing Projects with GNU Make, Third Edition](http://oreilly.com/catalog/make3/book/index.csp)
+
 [GNU Make](https://www.gnu.org/software/make/manual/make.html)
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
