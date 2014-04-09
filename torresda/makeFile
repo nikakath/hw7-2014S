@@ -1,0 +1,8 @@
+scheme-list: scheme-list.o
+	gcc -o scheme-list scheme-list.o
+
+scheme-list.o: scheme-list.c scheme-list.h
+	ggc -c -o scheme-list.o scheme-list.c
+
+clean: 
+	rm *.o
